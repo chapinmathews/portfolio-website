@@ -3,13 +3,12 @@ Colors used:
 Typeface Black: #000000 Opacity 87%
 Background White: #ffffff
 */
-body {background-color: white;}
-body {font-family: 'Open Sans', sans-serif;}
-font-size: 16px; /* Sets the font size to 16px */
-font-weight: 300; /* Sets the font weight to 300 */
-line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-color: #4a4a4a;
-}
+body {background-color: white;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 16px; /* Sets the font size to 16px */
+     font-weight: 300; /* Sets the font weight to 300 */
+     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+     color: #4a4a4a;}
 
 h1, h2, h3, h4 {
 line-height: 1.4;
