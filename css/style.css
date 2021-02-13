@@ -3,6 +3,10 @@ Colors used:
 Typeface Black: #000000 Opacity 87%
 Background White: #ffffff
 */
+* {
+  box-sizing: border-box;
+}
+
 body {background-color: white;
      font-family: 'Open Sans', sans-serif;
      font-size: 16px; /* Sets the font size to 16px */
