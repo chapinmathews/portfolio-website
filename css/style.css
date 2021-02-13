@@ -58,3 +58,124 @@ a.button
   transition: 0.2s opacity;
   }
 
+
+
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+#hero p {
+  text-align: center; /* Centers text */
+}
+
+#work h2 {
+  text-align: center; /* Centers text */
+}
+
+#footer h2 {
+  text-align: center; /* Centers text */
+}
+
+#footer p {
+  text-align: center; /* Centers text */
+}
+
+#about h1 {
+  text-align: center; /* Centers text */
+}
+
+#about h2 {
+  text-align: center; /* Centers text */
+}
+
+#about h3 {
+  text-align: center; /* Centers text */
+}
+
+#about p {
+  text-align: center; /* Centers text */
+}
+
+#about ul {
+  text-align: center; /* Centers text */
+  list-style-type: none;
+  padding: 0;
+}
+
+#modhouse h1 {
+  text-align: center; /* Centers text */
+}
+
+#modhouse h2 {
+  text-align: center; /* Centers text */
+}
+
+#modhouse h3 {
+  text-align: center; /* Centers text */
+}
+
+#modhouse p {
+  text-align: center; /* Centers text */
+}
+
+#modhouse ul {
+  text-align: center; /* Centers text */
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.center {
+  text-align: center;
+}
+
+
+/* Header Styling */
+
+.logo {
+  max-width: 250px;
+}
+
+header {
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow:0px 3px 10px 0px rgba(50, 50, 50, 0.5);
+  position: relative;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
