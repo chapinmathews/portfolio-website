@@ -82,35 +82,36 @@ a.button
   text-align: center; /* Centers text */
 }
 
-#footer h2 {
-  text-align: center; /* Centers text */
-}
-
-#footer p {
-  text-align: center; /* Centers text */
-}
-
 #about h1 {
   text-align: center; /* Centers text */
 }
 
-#about h2 {
+#story {
+  text-align: center;
+}
+
+#story h1 {
   text-align: center; /* Centers text */
 }
 
-#about h3 {
+#story h2 {
   text-align: center; /* Centers text */
 }
 
-#about p {
+#story h3 {
   text-align: center; /* Centers text */
 }
 
-#about ul {
+#story p {
+  text-align: center; /* Centers text */
+}
+
+#story ul {
   text-align: center; /* Centers text */
   list-style-type: none;
   padding: 0;
 }
+
 
 #modhouse h1 {
   text-align: center; /* Centers text */
@@ -132,11 +133,6 @@ a.button
   text-align: center; /* Centers text */
   list-style-type: none;
   padding: 0;
-}
-
-
-.center {
-  text-align: center;
 }
 
 
