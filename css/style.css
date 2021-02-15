@@ -49,7 +49,6 @@ nav > ul > li > a:active { /* selected link */color: #000000;}
 a.button
   {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #ffffff;
   color: #4AA7F7; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
@@ -178,4 +177,34 @@ nav > ul > li > a {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+}
+
+
+/* Footer Styling */
+
+#footer {
+  text-align: center;
+}
+
+#footer h2 {
+  text-align: center; /* Centers text */
+}
+
+#footer p {
+  text-align: center; /* Centers text */
+}
+
+.social {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social a {
+  display: inline-block;
+  width: 50px;
+  margin: 0 10px;
+}
+
+.center {
+  text-align: center;
 }
