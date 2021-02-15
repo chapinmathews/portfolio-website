@@ -49,6 +49,7 @@ nav > ul > li > a:active { /* selected link */color: #000000;}
 a.button
   {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #F1F1F1;
   color: #4AA7F7; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
