@@ -63,7 +63,7 @@ a.button
   .button:hover {
     opacity: 0.8;
   }
-  
+
 /* Layout styling */
 
 .container {
@@ -135,19 +135,19 @@ a.button
   text-align: center; /* Centers text */
 }
 
-#modhouse h2 {
+#modhouseproj h2 {
   text-align: center; /* Centers text */
 }
 
-#modhouse h3 {
+#modhouseproj h3 {
   text-align: center; /* Centers text */
 }
 
-#modhouse p {
+#modhouseproj p {
   text-align: center; /* Centers text */
 }
 
-#modhouse ul {
+#modhouseproj ul {
   text-align: center; /* Centers text */
   list-style-type: none;
   padding: 0;
