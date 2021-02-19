@@ -46,7 +46,7 @@ a:active { /* selected link */color: #146EBB;}
 
 nav > ul > li > a:visited { /* visited link */color: #5d5d5d;}
 nav > ul > li > a:hover {color: #000000;text-decoration: underline; /* Underlining when hovering over a link */}
-nav > ul > li > a:active { /* selected link */color: #b7b7b7;text-decoration: underline;}
+nav > ul > li > a:active { /* selected link */color: #b7b7b7;}
 
 a.button
   {
