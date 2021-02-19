@@ -44,9 +44,9 @@ a:visited { /* visited link */color: #1C88E4;}
 a:hover {color: #70BDFF;text-decoration: underline; /* Underlining when hovering over a link */}
 a:active { /* selected link */color: #146EBB;}
 
-nav > ul > li > a:visited { /* visited link */color: #000000;}
+nav > ul > li > a:visited { /* visited link */color: #5d5d5d;}
 nav > ul > li > a:hover {color: #000000;text-decoration: underline; /* Underlining when hovering over a link */}
-nav > ul > li > a:active { /* selected link */color: #000000;}
+nav > ul > li > a:active { /* selected link */color: #b7b7b7;text-decoration: underline;}
 
 a.button
   {
