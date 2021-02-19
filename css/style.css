@@ -328,6 +328,12 @@ Large devices (1024px or larger)
   .col-lg-7 {
     width: 60%;
   }
+  .col-md-6 {
+    width: 100%;
+  }
+  .col-lg-12 {
+    width: 50%;
+  }
   [class*="col-"] {
     float: left;
     padding: 10px;
