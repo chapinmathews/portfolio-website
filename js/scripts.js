@@ -1,1 +1,1 @@
-<script src="js/script.js"></script>
+console.log("Welcome To My Website");
