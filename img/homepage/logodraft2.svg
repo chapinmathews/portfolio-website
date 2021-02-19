@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="50px" viewBox="0 0 150 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logodraft</title>
+    <g id="logodraft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FDFDFD" x="0" y="0" width="150" height="50"></rect>
+        <rect id="Rectangle" fill="#FDFDFD" x="0" y="0" width="150" height="50"></rect>
+        <text id="Mathews" font-family="HiraginoSans-W1, Hiragino Sans" font-size="11" font-weight="300" letter-spacing="0.05" fill="#000000" fill-opacity="0.87">
+            <tspan x="8.5" y="34">Mathews</tspan>
+        </text>
+        <text id="Chapin" font-family="HiraginoSans-W1, Hiragino Sans" font-size="11" font-weight="300" letter-spacing="0.05" fill="#000000" fill-opacity="0.87">
+            <tspan x="9" y="20">Chapin</tspan>
+        </text>
+        <line x1="8.5" y1="39.5" x2="141.5" y2="39.5" id="Line" stroke="#000000" stroke-width="0.4" stroke-linecap="square"></line>
+    </g>
+</svg>
