@@ -48,6 +48,8 @@ nav > ul > li > a:visited { /* visited link */color: #5d5d5d;}
 nav > ul > li > a:hover {color: #000000;text-decoration: underline; /* Underlining when hovering over a link */}
 nav > ul > li > a:active { /* selected link */color: #b7b7b7;}
 
+.active a, .active a:visited {text-decoration: underline;}
+
 a.button
   {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -156,6 +158,24 @@ a.button
   padding: 0;
 }
 
+#nesteggproj h2 {
+  text-align: center; /* Centers text */
+}
+
+#nesteggproj h3 {
+  text-align: center; /* Centers text */
+}
+
+#nesteggproj p {
+  text-align: center; /* Centers text */
+}
+
+#nesteggproj ul {
+  text-align: center; /* Centers text */
+  list-style-type: none;
+  padding: 0;
+}
+
 #about h2 {
   padding-top: -10px;
 }
@@ -239,16 +259,17 @@ nav > ul > li > a {
   display: table;
 }
 
-.skilltools h2 {
-  padding-top: 40px;
-}
 
 #story .container {
   border-bottom: 1px solid #4a4a4a; margin: 25px; display: inline-block;
 }
 
 #modhouseproj .container {
-  border-bottom: 1px solid #4a4a4a;
+  border-bottom: 1px solid #4a4a4a;margin: 25px; display: inline-block;
+}
+
+#nesteggproj .container {
+  border-bottom: 1px solid #4a4a4a;margin: 25px; display: inline-block;
 }
 
 /* ==============================
@@ -304,6 +325,9 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
   }
+  .col-md-12 {
+    width: 100%;
+  }
   [class*="col-"] {
     float: left;
     padding: 10px;
@@ -332,11 +356,8 @@ Large devices (1024px or larger)
   .col-lg-7 {
     width: 60%;
   }
-  .col-md-6 {
-    width: 100%;
-  }
   .col-lg-12 {
-    width: 50%;
+    width: 100%;
   }
   [class*="col-"] {
     float: left;
