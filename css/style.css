@@ -156,6 +156,9 @@ a.button
   padding: 0;
 }
 
+#about h2 {
+  padding-top: -10px;
+}
 
 /* Header Styling */
 
