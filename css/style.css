@@ -50,6 +50,36 @@ nav > ul > li > a:active { /* selected link */color: #b7b7b7;}
 
 .active a, .active a:visited {text-decoration: underline;}
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+  }
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+  padding-top: 7px;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 a.button
   {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -80,7 +110,12 @@ a.button
 main {
   padding-top: 56px;
 }
+
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
+/* ==============================
+Hero code
+================================= */
 
 #hero h1 {
   text-align: center; /* Centers text */
@@ -106,9 +141,17 @@ main {
   text-align: center; /* Centers text */
 }
 
+/* ==============================
+About code
+================================= */
+
 #about h1 {
   text-align: center; /* Centers text */
   padding: 10px;
+}
+
+#about h2 {
+  padding-top: -10px;
 }
 
 #story {
@@ -137,6 +180,9 @@ main {
   padding: 0;
 }
 
+/* ==============================
+Modhouse code
+================================= */
 
 #modhouse h1 {
   text-align: center; /* Centers text */
@@ -160,6 +206,10 @@ main {
   padding: 0;
 }
 
+/* ==============================
+Nestegg code
+================================= */
+
 #nesteggproj h2 {
   text-align: center; /* Centers text */
 }
@@ -178,39 +228,6 @@ main {
   padding: 0;
 }
 
-#about h2 {
-  padding-top: -10px;
-}
-
-.navtoggle li:not(:last-child) {
-  display: none;
-}
-
-.navtoggle, .navtoggle.responsive {
-  position: relative;
-  }
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-  padding-right: 0;
-  padding-top: 7px;
-}
-
-.navtoggle.responsive nav {
-  padding: 24px 0 0;
-}
-.navtoggle.responsive li  {
-  display: block;
-  padding: 10px 0;
-  text-align: right;
-}
-
-.navtoggle.responsive li:last-child  {
-  padding: 0 0 10px;
-}
 
 /* Header Styling */
 
@@ -291,7 +308,6 @@ nav > ul > li > a {
   clear: both;
   display: table;
 }
-
 
 #story .container {
   border-bottom: 1px solid #4a4a4a; margin: 25px; display: inline-block;
