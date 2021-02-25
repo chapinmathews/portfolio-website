@@ -52,6 +52,7 @@ nav > ul > li > a:hover {color: #000000;text-decoration: underline; /* Underlini
 nav > ul > li > a:active { /* selected link */color: #b7b7b7;}
 
 .active a, .active a:visited {text-decoration: underline;}
+
 .logo {
   max-width: 150px;
 }
