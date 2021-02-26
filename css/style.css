@@ -139,9 +139,6 @@ a.button
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
-main {
-  padding-top: 56px;
-}
 
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
 
@@ -249,7 +246,7 @@ Modhouse code
 }
 
 #modhouseproj .container {
-  border-bottom: 1px solid #4a4a4a;margin: 25px; display: inline-block;
+  border-bottom: 1px solid #4a4a4a; margin: 0 auto; display: block;
 }
 
 /* ==============================
@@ -275,7 +272,7 @@ Nestegg code
 }
 
 #nesteggproj .container {
-  border-bottom: 1px solid #4a4a4a;margin: 25px; display: inline-block;
+  border-bottom: 1px solid #4a4a4a; margin: 0 auto; display: block;
 }
 
 
@@ -379,6 +376,9 @@ Medium devices (640px and larger)
   }
   .navtoggle li:last-child {
   display: none;
+  }
+  .navtoggle.responsive nav {
+    padding-top: 0;
   }
   .logo {
     max-width: 250px;
