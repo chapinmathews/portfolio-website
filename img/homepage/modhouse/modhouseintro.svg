@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="706px" viewBox="0 0 1200 706" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>MODHOUSE INTRO FRAME WEB@1x</title>
+    <g id="MODHOUSE-INTRO-FRAME-WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Intro-Logo">
+            <rect id="Intro-Background" fill="#E8C394" x="0" y="-1.67186526e-13" width="1200" height="705.882353"></rect>
+            <line x1="251.960784" y1="244.419097" x2="251.960784" y2="459.507903" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></line>
+            <line x1="948.039216" y1="244.419097" x2="948.039216" y2="459.507903" id="Line-2-Copy" stroke="#FFFFFF" stroke-linecap="square"></line>
+            <text id="Connecting-You-To-Su" font-family="SFPro-Regular, SF Pro" font-size="27" font-weight="normal" letter-spacing="0.623076949" fill="#FFFFFF">
+                <tspan x="298.132048" y="416.007496">Connecting You To Sustainable Designer Furniture</tspan>
+            </text>
+            <text id="MODHOUSE" font-family="SFPro-Ultralight, SF Pro" font-size="117.647059" font-weight="200" letter-spacing="2.85947728" fill="#FFFFFF">
+                <tspan x="288.298963" y="365.025365">MODHOUSE</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
