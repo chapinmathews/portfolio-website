@@ -48,7 +48,7 @@ a:hover {color: #70BDFF;text-decoration: underline; /* Underlining when hovering
 a:active { /* selected link */color: #146EBB;}
 
 nav > ul > li > a:visited { /* visited link */color: #5d5d5d;}
-nav > ul > li > a:hover {color: #000000;text-decoration: underline; /* Underlining when hovering over a link */}
+nav > ul > li > a:hover {color: #000000;text-decoration: none; /* Underlining when hovering over a link */}
 nav > ul > li > a:active { /* selected link */color: #b7b7b7;}
 
 .active a, .active a:visited {text-decoration: underline;}
@@ -85,7 +85,9 @@ nav > ul > li > a {
 .navtoggle li:not(:last-child) {
   display: none;
 }
-
+.navtoggle li:last-child {
+display: block;
+}
 .navtoggle, .navtoggle.responsive {
   position: relative;
   }
@@ -96,7 +98,7 @@ nav > ul > li > a {
   top: 2px;
   font-size: 20px;
   padding-right: 0;
-  padding-top: 7px;
+  padding-top: 8px;
 }
 
 .navtoggle.responsive nav {
@@ -104,7 +106,7 @@ nav > ul > li > a {
 }
 .navtoggle.responsive li  {
   display: block;
-  padding: 10px 0;
+  padding: 6px 0;
   text-align: right;
 }
 
@@ -229,6 +231,7 @@ Modhouse code
 
 #modhouseproj h2 {
   text-align: center; /* Centers text */
+  padding-top: 30px;
 }
 
 #modhouseproj h3 {
@@ -252,7 +255,9 @@ Modhouse code
 /* ==============================
 Nestegg code
 ================================= */
-
+#nestegg h1 {
+  text-align: center; /* Centers text */
+}
 #nesteggproj h2 {
   text-align: center; /* Centers text */
 }
@@ -275,6 +280,35 @@ Nestegg code
   border-bottom: 1px solid #4a4a4a; margin: 0 auto; display: block;
 }
 
+
+/* ==============================
+Nestegg code
+================================= */
+#memo h1 {
+  text-align: center; /* Centers text */
+}
+#memoproj h2 {
+  text-align: center; /* Centers text */
+  padding-top: 30px;
+}
+
+#memoproj h3 {
+  text-align: center; /* Centers text */
+}
+
+#memoproj p {
+  text-align: center; /* Centers text */
+}
+
+#memoproj ul {
+  text-align: center; /* Centers text */
+  list-style-type: none;
+  padding: 0;
+}
+
+#memoproj .container {
+  border-bottom: 1px solid #4a4a4a; margin: 0 auto; display: block;
+}
 
 /* ==============================
 Footer code
@@ -307,7 +341,7 @@ Footer code
 }
 
 .profilephoto {
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
   display: block;
 }
