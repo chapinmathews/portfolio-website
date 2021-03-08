@@ -7,51 +7,91 @@ Background White: #ffffff
   box-sizing: border-box;
 }
 
-body {background-color: white;
-     font-family: 'Open Sans', sans-serif;
-     font-size: 16px; /* Sets the font size to 16px */
-     font-weight: 300; /* Sets the font weight to 300 */
-     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-     color: #4a4a4a;}
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+}
 
 h1, h2, h3, h4 {
-line-height: 1.4;
+  line-height: 1.4;
 }
+
 h1 {
-font-size: 2.75em;
-font-weight: 500;
+  font-size: 2.75em;
+  font-weight: 500;
 }
 
 h2 {
-font-size: 2.25em;
-font-weight: 400;
+  font-size: 2.25em;
+  font-weight: 400;
 }
 
 h3 {
-font-size: 1.75em;
-font-weight: 300;
-margin-top: 0;
-}
-h4 {
-font-size: 1.35em;
-font-weight: 200;
+  font-size: 1.75em;
+  font-weight: 300;
+  margin-top: 0;
 }
 
-img {width: 100%;}
+h4 {
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
 
 /* ==============================
 Header code
 ================================= */
-a {color: #4AA7F7;text-decoration: none; /* No underlining */}
-a:visited { /* visited link */color: #1C88E4;}
-a:hover {color: #70BDFF;text-decoration: underline; /* Underlining when hovering over a link */}
-a:active { /* selected link */color: #146EBB;}
+a {
+  color: #4AA7F7;
+  text-decoration: none;
+  /* No underlining */
+}
 
-nav > ul > li > a:visited { /* visited link */color: #5d5d5d;}
-nav > ul > li > a:hover {color: #000000;text-decoration: none; /* Underlining when hovering over a link */}
-nav > ul > li > a:active { /* selected link */color: #b7b7b7;}
+a:visited {
+  /* visited link */
+  color: #1C88E4;
+}
 
-.active a, .active a:visited {text-decoration: underline;}
+a:hover {
+  color: #70BDFF;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
+}
+
+a:active {
+  /* selected link */
+  color: #146EBB;
+}
+
+nav>ul>li>a:visited {
+  /* visited link */
+  color: #5d5d5d;
+}
+
+nav>ul>li>a:hover {
+  color: #000000;
+  text-decoration: none;
+  /* Underlining when hovering over a link */
+}
+
+nav>ul>li>a:active {
+  /* selected link */
+  color: #b7b7b7;
+}
+
+.active a, .active a:visited {
+  text-decoration: underline;
+}
 
 .logo {
   max-width: 150px;
@@ -60,22 +100,22 @@ nav > ul > li > a:active { /* selected link */color: #b7b7b7;}
 header {
   background-color: #ffffff;
   padding: 10px 0;
-  box-shadow:0px 3px 10px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.5);
   position: relative;
   padding: 10px 0 4px;
 }
 
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 300;
@@ -85,12 +125,14 @@ nav > ul > li > a {
 .navtoggle li:not(:last-child) {
   display: none;
 }
+
 .navtoggle li:last-child {
-display: block;
+  display: block;
 }
+
 .navtoggle, .navtoggle.responsive {
   position: relative;
-  }
+}
 
 .navtoggle li .icon {
   position: absolute;
@@ -104,45 +146,51 @@ display: block;
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 6px 0;
   text-align: right;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
-a.button
-  {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #F1F1F1;
-  color: #4AA7F7; /* needed to override the default link color */
+a.button {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #ffffff;
+  color: #4a4a4a;
+  /* needed to override the default link color */
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
   margin-top: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #979797; /* width of the border, type, color */
+  border: 1px solid #4a4a4a;
   transition: 0.2s opacity;
   transition-property: opacity;
-  }
-  .button:hover {
-    opacity: 0.8;
-  }
+}
+
+.button:hover {
+  opacity: 0.6;
+}
 
 /* Layout styling */
-
 .container {
   padding: 0 15px;
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
 
 /* ==============================
 Hero code
@@ -155,15 +203,18 @@ Hero code
 }
 
 #hero h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #hero h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #hero p {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #hero {
@@ -175,20 +226,21 @@ Hero code
 }
 
 #work h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 /* ==============================
 About code
 ================================= */
-
 #about h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
   padding: 10px;
 }
 
 #about h2 {
-  padding-top: -10px;
+  padding-top: 10px;
 }
 
 #story {
@@ -196,118 +248,148 @@ About code
 }
 
 #story h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #story h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #story h3 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #story p {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #story ul {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
   list-style-type: none;
   padding: 0;
 }
 
 #story .container {
-  border-bottom: 1px solid #4a4a4a; margin: 25px; display: inline-block;
+  border-bottom: 1px solid #4a4a4a;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: inline-block;
 }
 
 /* ==============================
 Modhouse code
 ================================= */
-
 #modhouse h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #modhouseproj h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
   padding-top: 30px;
 }
 
 #modhouseproj h3 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #modhouseproj p {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #modhouseproj ul {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
   list-style-type: none;
   padding: 0;
 }
 
 #modhouseproj .container {
-  border-bottom: 1px solid #4a4a4a; margin: 0 auto; display: block;
+  border-bottom: 1px solid #4a4a4a;
+  margin: 0 auto;
+  display: block;
 }
 
 /* ==============================
 Nestegg code
 ================================= */
 #nestegg h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
+
 #nesteggproj h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #nesteggproj h3 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #nesteggproj p {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #nesteggproj ul {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
   list-style-type: none;
   padding: 0;
 }
 
 #nesteggproj .container {
-  border-bottom: 1px solid #4a4a4a; margin: 0 auto; display: block;
+  border-bottom: 1px solid #4a4a4a;
+  margin: 0 auto;
+  display: block;
 }
-
 
 /* ==============================
 Nestegg code
 ================================= */
 #memo h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
+
 #memoproj h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
   padding-top: 30px;
 }
 
 #memoproj h3 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #memoproj p {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #memoproj ul {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
   list-style-type: none;
   padding: 0;
 }
 
 #memoproj .container {
-  border-bottom: 1px solid #4a4a4a; margin: 0 auto; display: block;
+  border-bottom: 1px solid #4a4a4a;
+  margin: 0 auto;
+  display: block;
 }
 
 /* ==============================
@@ -318,11 +400,13 @@ Footer code
 }
 
 #contact h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #contact p {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 .social {
@@ -353,43 +437,6 @@ Footer code
 }
 
 /* ==============================
-Animation code
-================================= */
-.berlin-illustration {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-
-@keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
-
-/* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
@@ -397,36 +444,46 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
+
   nav {
     width: auto;
     float: right;
     margin-top: 14px;
   }
-  nav > ul {
-  margin: 1em 0;
+
+  nav>ul {
+    margin: 1em 0;
   }
+
   .navtoggle li:not(:last-child) {
-  display: inline-block;
+    display: inline-block;
   }
+
   .navtoggle li:last-child {
-  display: none;
+    display: none;
   }
+
   .navtoggle.responsive nav {
     padding-top: 0;
   }
+
   .logo {
     max-width: 250px;
   }
+
   .col-md-6 {
     width: 50%;
   }
+
   .col-md-12 {
     width: 100%;
   }
+
   [class*="col-"] {
     float: left;
     padding: 10px;
   }
+
   #about-page h3 {
     margin-top: 0;
   }
@@ -440,24 +497,30 @@ Large devices (1024px or larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
+
   nav {
     width: auto;
     float: right;
     margin-top: 14px;
   }
+
   .col-lg-5 {
     width: 40%;
   }
+
   .col-lg-7 {
     width: 60%;
   }
+
   .col-lg-12 {
     width: 100%;
   }
+
   [class*="col-"] {
     float: left;
     padding: 10px;
   }
+
   #about-page h3 {
     margin-top: 0;
   }
@@ -477,5 +540,4 @@ X-large devices (1440px or larger)
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) {
-}
+@media only screen and (min-width: 1920px) {}
