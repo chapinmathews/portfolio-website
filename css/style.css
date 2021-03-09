@@ -19,7 +19,7 @@ body {
   color: #4a4a4a;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   line-height: 1.4;
 }
 
@@ -36,12 +36,16 @@ h2 {
 h3 {
   font-size: 1.75em;
   font-weight: 300;
-  margin-top: 0;
 }
 
 h4 {
   font-size: 1.35em;
   font-weight: 300;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: 200;
 }
 
 img {
@@ -202,7 +206,7 @@ Hero code
 ================================= */
 #hero {
   background-color: #f0efeb;
-  padding: 20px 0;
+  padding: 40px 0;
   display: inline-block;
   width: 100%;
 }
@@ -214,6 +218,17 @@ Hero code
 
 #hero h2 {
   text-align: center;
+  /* Centers text */
+}
+
+#hero h4 {
+  text-align: center;
+  display: inline-block;
+  /* Centers text */
+}
+#hero h5 {
+  text-align: center;
+  display: inline-block;
   /* Centers text */
 }
 
