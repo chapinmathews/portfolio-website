@@ -179,14 +179,8 @@ a.button {
 }
 
 /* Layout styling */
-<<<<<<< Updated upstream
-
 main {
   padding-top: 70px;
-=======
-main {
-  top-padding: 70px;
->>>>>>> Stashed changes
 }
 
 .container {
