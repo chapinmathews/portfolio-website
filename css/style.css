@@ -204,6 +204,7 @@ Hero code
 #hero {
   background-color: #f0efeb;
   padding: 40px 0;
+  text-align: center;
   display: inline-block;
   width: 100%;
 }
@@ -221,21 +222,19 @@ Hero code
 #hero h4 {
   text-align: center;
   display: inline-block;
+  font-size: 1em;
   /* Centers text */
 }
 #hero h5 {
   text-align: center;
   display: inline-block;
+  font-size: .8em;
   /* Centers text */
 }
 
 #hero p {
   text-align: center;
   /* Centers text */
-}
-
-#hero {
-  text-align: center;
 }
 
 #hero span {
@@ -451,6 +450,21 @@ Footer code
   content: "";
   clear: both;
   display: table;
+}
+
+/* ==============================
+Small devices (470px and larger)
+================================= */
+@media only screen and (min-width: 470px) {
+
+  #hero h4 {
+      font-size: 1.35em;
+  }
+
+  #hero h5 {
+      font-size: 1em;
+
+  }
 }
 
 /* ==============================
