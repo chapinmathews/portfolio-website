@@ -100,8 +100,14 @@ nav>ul>li>a:active {
 header {
   background-color: #ffffff;
   padding: 10px 0;
+<<<<<<< Updated upstream
   box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.5);
   position: relative;
+=======
+  box-shadow:0px 3px 10px 0px rgba(50, 50, 50, 0.5);
+  position: fixed;
+  width: 100%;
+>>>>>>> Stashed changes
   padding: 10px 0 4px;
 }
 
@@ -177,7 +183,14 @@ a.button {
   opacity: 0.6;
 }
 
+<<<<<<< Updated upstream
 /* Layout styling */
+=======
+main {
+  top-padding: 70px;
+}
+
+>>>>>>> Stashed changes
 .container {
   padding: 0 15px;
 }
