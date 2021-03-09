@@ -303,6 +303,8 @@ Modhouse code
 ================================= */
 #modhouse h1 {
   text-align: center;
+  font-size: 2.25em;
+  font-weight: 300;
   /* Centers text */
 }
 
@@ -340,6 +342,8 @@ Nestegg code
 ================================= */
 #nestegg h1 {
   text-align: center;
+  font-size: 2.25em;
+  font-weight: 300;
   /* Centers text */
 }
 
@@ -376,6 +380,8 @@ Nestegg code
 ================================= */
 #memo h1 {
   text-align: center;
+  font-size: 2.25em;
+  font-weight: 300;
   /* Centers text */
 }
 
