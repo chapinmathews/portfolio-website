@@ -502,16 +502,6 @@ Medium devices (640px and larger)
     float: left;
     padding: 10px;
   }
-  #hero h4 {
-    text-align: center;
-    display: inline-block;
-    /* Centers text */
-  }
-  #hero h5 {
-    text-align: center;
-    display: inline-block;
-    /* Centers text */
-  }
 
   #about-page h3 {
     margin-top: 0;
