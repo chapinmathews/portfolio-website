@@ -442,6 +442,11 @@ Footer code
   margin: 0 10px;
 }
 
+.social a.button {
+  width: 110px;
+  transform: translate(0, -19px);
+}
+
 .center {
   text-align: center;
 }
